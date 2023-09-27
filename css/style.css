@@ -7,7 +7,8 @@ html {
     --font-alt: 200 6vw/1 "Comic Sans MS", "Helvetica Neue", "Microsoft Yahei", "Microsoft Yahei", -apple-system, sans-serif
 }
 
-.fade {
+
+/* .fade {
     opacity: 0;
     transition: all 1s;
     transform: translateY(200px)
@@ -16,7 +17,7 @@ html {
 .fade.in {
     opacity: 1;
     transform: none
-}
+} */
 
 * {
     box-sizing: border-box;
@@ -155,10 +156,11 @@ main {
     background: radial-gradient(#313131, #0a0a0a)
 }
 
-.content-intro {
+
+/* .content-intro {
     z-index: 100;
     height: 200vh
-}
+} */
 
 .content-main {
     position: fixed;
@@ -166,17 +168,20 @@ main {
     left: 0
 }
 
-.content-inner {
-    position: relative
-}
 
-.content-inner,
+/* .content-inner {
+    position: relative
+} */
+
+
+/* .content-inner,
 .wrap {
     width: 100%;
     height: 100vh
-}
+} */
 
-.wrap {
+
+/* .wrap {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
@@ -188,15 +193,16 @@ main {
     -ms-flex-pack: center;
     justify-content: center;
     text-align: center
-}
+} */
 
-.content-intro .content-inner {
+
+/* .content-intro .content-inner {
     background: var(--color-content);
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none
-}
+} */
 
 .shape {
     height: 100vh;
@@ -205,14 +211,16 @@ main {
     fill: var(--color-content)
 }
 
-.shape-wrap {
+
+/* .shape-wrap {
     position: relative;
     z-index: 10;
     margin: -5px 0 0;
     will-change: scroll-position
-}
+} */
 
-.content-title {
+
+/* .content-title {
     font-family: Comic Sans MS, Helvetica Neue, Microsoft Yahei, -apple-system, sans-serif;
     font-size: 4.7rem;
     font-weight: 300;
@@ -222,7 +230,7 @@ main {
     margin-bottom: .3em;
     animation: whiteShadow 1.5s ease-in-out infinite alternate;
     text-shadow: #452d2d 0 0 1px, #fffffb 0 0 1px, #fffffb 0 0 2px
-}
+} */
 
 @media screen and (max-width:50em) {
     .content-title {
@@ -239,14 +247,15 @@ main {
     }
 }
 
-.content-subtitle {
+
+/* .content-subtitle {
     color: #fff;
     font-family: Comic Sans MS, Helvetica Neue, Microsoft Yahei, -apple-system, sans-serif;
     font-size: 1.2rem;
     font-weight: 200;
     margin-bottom: 2em;
     text-shadow: 0 0 4px #fff
-}
+} */
 
 @media screen and (max-width:1024px) {
     .content-subtitle {
@@ -295,13 +304,14 @@ main {
     transform: translate3d(-50%, 0, 0)
 }
 
-.arrow-1 {
+
+/* .arrow-1 {
     animation: arrow-movement 2s ease-in-out infinite
 }
 
 .arrow-2 {
     animation: arrow-movement 2s 1s ease-in-out infinite
-}
+} */
 
 .arrow:after,
 .arrow:before {
